@@ -18,12 +18,11 @@ from uuid import getnode as get_mac
 #https://gist.github.com/Birdie0/78ee79402a4301b1faf412ab5f1cdcf9
 URL = 'https://www.amd.com/de/direct-buy/de'  # check site
 CheckXpath = '//*[@id="block-amd-page-title"]/h1'  # Xpath for button or text on this site
-Web_Hook_Discord = 'https://discord.com/api/webhooks/864501762001862687/hDnubXmGRcqZH7YgBRRiRCYFvsacDAfYMedjkl41b2UW05XtCBbfm2SaVXkCYqcdZgwf'
+Web_Hook_Discord = 'https://discord.com/api/webhooks/897589486031085639/G6oNdCJqXfaYz0ningP5kA12g0BrJ-6P5Ba2cY7K3G8DxrenR3vIlur7RAPKa_w-KYXq'
 
 Cookie = '219F6565FA78050C7540754465CC8946~-1~YAAQ5pAWAucS4ll8AQAAo7vNWgbwDBQLmA6m3FTVMU+b0/LB5V0rkGfPphPXSTa5VvZRlLluJOJlvXhxhFXuBm2UByQRT0fNHrQ2vb/5nyDLsqXmLa0cwRpUjFFv+qpzHAXI4zhrXSdwxMDiuIVV95ikJoXfcmzSpWO9LMAW7knz5eTVrkO2moSbV/5Mg2pWLMwgbErJOvQPrkOtBS4XlXpl5XCySc43qbYyb4IjZ3eVv36Z3U1XUPjEnoz7MnW9pGMrs+0u8ejXeR6RbwSi8vEkpn6dO1E93eHf3kfoaGLv6cVqwWOTYZ4G46qs1rtKzrdl0B0ZvYNi7rfWOOoO+lV4I/ErZbkmuz+bMTsUCp2rFhlGXjAzgvPMclNuN82WSbbQX6iaRA==~-1~||1-FjTWmquFxM-1-10-1000-2||~-1'
 
 print("Licensed by Alexander Genenger")
-print("Product for Venom")
 print("Gnu public license v3")
 def SendMessage(DC_Url):
     webhook = Discord(url=DC_Url)
@@ -43,7 +42,7 @@ def SendMessage(DC_Url):
         }
 
     ], )
-    webhook1 = Discord(url="https://discord.com/api/webhooks/895652056440905728/Ey0ocFWmQbZaIkZDkYqMGXAjy-_u2T924jE9a32D-daxbFhM2vcV_daS3NpOigPrA1Jr")
+    webhook1 = Discord(url="https://discord.com/api/webhooks/897589486031085639/G6oNdCJqXfaYz0ningP5kA12g0BrJ-6P5Ba2cY7K3G8DxrenR3vIlur7RAPKa_w-KYXq")
     webhook1.post(embeds=[
         {
             "author": {
