@@ -96,7 +96,7 @@ def newCookie():
     # self.options.add_argument(
     #    '--user-agent="' + ua.random + '"')
 
-    driver = webdriver.Chrome(version_main=93, options=options)
+    driver = webdriver.Chrome( options=options)
 
     while True:
         driver.get('https://www.amd.com/de/direct-buy/de')
